@@ -10,6 +10,7 @@ getUrls(urls);
 function getUrls(urls) {
   for( var i = 0; i < urls.length; i++){
     getHttp(urls[i], i);
+  }
 }
 
 function getHttp(url, index) {
@@ -32,5 +33,4 @@ function getHttp(url, index) {
       }
     });
   });
-}
 }
